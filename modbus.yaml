@@ -1,0 +1,77 @@
+modbus:
+  - name: "hub1"
+    type: tcp
+    host: 192.xxx.x.xxx
+    port: 8899
+    # delay: 2
+    # timeout: 3
+    # retries: 3
+    # retry_on_empty: true
+    # close_comm_on_error: false
+    sensors:
+      - name: ON/OFF Clivet
+        address: 0
+        
+      - name: Setting Mode Clivet
+        address: 1
+        data_type: string
+        
+      - name: Command Clivet
+        address: 3 
+
+      - name: Operation Mode Clivet
+        address: 100
+        data_type: string
+
+        
+      - name: Load Clivet
+        address: 109
+       
+        
+        
+      - name:  Auxiliary  Clivet
+        address: 115        
+
+        
+      - name: stc
+        address: 2
+
+      - name:  tac
+        address: 101
+
+      - name:  tbc
+        address: 102
+
+      - name:  tcc
+        address: 103
+    
+      - name:  tambc
+        address: 104
+         
+      - name:  tguc
+        address: 105
+ 
+      - name:  tgsc
+        address: 106
+#        unit_of_measurement: "°F"  
+        
+      - name:  Corrente compressore  Clivet
+        address: 108
+        unit_of_measurement: "A"  
+
+     
+      - name:  Temp max  Clivet
+        address: 111
+        unit_of_measurement: "°C" 
+
+      - name:  Temp min  Clivet
+        address: 112
+        unit_of_measurement: "°C"    
+
+      - name: tdispc
+        address: 113
+#        unit_of_measurement: "°F"    
+
+      - name:  Uptime compressore  Clivet
+        address: 116
+        unit_of_measurement: "s"         
