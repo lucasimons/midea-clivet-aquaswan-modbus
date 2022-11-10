@@ -1,5 +1,5 @@
 # midea-clivet-aquaswan-modbus
-Modbus sensor for Home Assistant
+Modbus sensor for HVAC Midea Clivet Swan 300/190 or Kaysun 300s to integrate with Home Assistant
 
 
 ![image](https://user-images.githubusercontent.com/67467751/201147916-d46df4e1-97b1-42b2-bfb5-73bc3f921c21.png)
